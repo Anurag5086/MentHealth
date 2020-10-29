@@ -3,8 +3,7 @@
 ![](images/Logo.png)
 
 :wave: Welcome to **MentHealth**! We are an open source community 
-which helps in spreading awareness about mental health and depression among teens and young adults.This is a non-profit initiative to fight against this cause. If you contributed to this repo in any manner 
-navigate to [Contributors](https://github.com/Rishit-dagli/Python3-by-practice#contributors-) to find your name and photo listed there.
+which helps in spreading awareness about mental health and depression among teens and young adults.This is a non-profit initiative to fight against this cause.
 
 Show some :heart: and :star: this repository!
  
