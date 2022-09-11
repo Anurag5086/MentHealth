@@ -1,0 +1,725 @@
+
+.header{
+    background-color: #0AAAA0;
+    height: 2.5rem;
+}
+
+.social{
+    float: right;
+    padding-top: .5rem;
+    color: white;
+    margin: 0rem 15rem 0rem 0rem;
+    width: fit-content;
+    font-size: 14px;
+}
+.icn{
+    color: white;
+    margin-left: 1rem;
+}
+
+.background{
+    background-image: url("Background_pic.png");
+    background-color: #0AAAA0;
+    height: 60vh;
+    background-size: 100%;
+    opacity: 80%;
+    background-repeat: no-repeat;
+    
+}
+.backDiv{
+    padding-top: 10rem;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    
+}
+.navDiv{
+    margin: 0 auto;
+}
+.backH1{
+    font-size: 3rem;
+    margin: 0 auto;
+}
+.centDiv{
+    margin: 0 auto;
+    padding-left: 10rem;
+}
+.content{
+    padding-top: 5rem;
+    width: 60%;
+    margin-right: 5rem;
+}
+.cards{
+    width: 45rem;
+    /* margin-bottom: 4rem; */
+    margin: 0 auto;
+
+}
+.subVid{
+    margin: 1rem auto;
+    padding-left: 1rem;
+}
+.details{
+    margin: 0rem auto;
+    color: white;
+    /* background-color: blue; */
+    text-align: center;
+    width: 80%;
+    padding-bottom: 2rem;
+    
+}
+.contact{
+    color: white;
+    margin: 0rem auto;
+    color: white;
+    /* background-color: red; */
+    text-align: left;
+    width: 80%;
+    padding-bottom: 2rem;
+}
+.add{
+    margin-bottom: 10rem auto;
+}
+.mainDiv{
+    display: flex;
+}
+.videos{
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+}
+
+
+
+/* -----------------min width 1399px ---------------------------*/
+
+@media screen and (min-width: 1399px) {
+    
+.header{
+    background-color: #0AAAA0;
+    height: 2.5rem;
+}
+
+.social{
+    float: right;
+    padding-top: .5rem;
+    color: white;
+    margin: 0rem 15rem 0rem 0rem;
+    width: fit-content;
+    font-size: 14px;
+}
+.icn{
+    color: white;
+    margin-left: 1rem;
+}
+
+.background{
+    background-image: url("Background_pic.png");
+    background-color: #0AAAA0;
+    height: 60vh;
+    background-size: 100%;
+    opacity: 80%;
+    background-repeat: no-repeat;
+    
+}
+.backDiv{
+    padding-top: 10rem;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    
+}
+.navDiv{
+    margin: 0 auto;
+}
+.backH1{
+    font-size: 3rem;
+    margin: 0 auto;
+}
+.centDiv{
+    margin: 0 auto;
+    padding-left: 10rem;
+}
+.content{
+    padding-top: 5rem;
+    width: 40%;
+    margin-right: 5rem;
+}
+.cards{
+    width: 45rem;
+    /* margin-bottom: 4rem; */
+    margin: 2rem 2rem 2rem 2rem;
+    /* margin: 0 auto; */
+
+}
+.subVid{
+    margin: 0rem auto;
+    padding-left: 2rem;
+}
+.details{
+    margin: 0rem auto;
+    color: white;
+    /* background-color: blue; */
+    text-align: center;
+    width: 80%;
+    padding-bottom: 4rem;
+    
+}
+.contact{
+    color: white;
+    margin: 0rem auto;
+    color: white;
+    /* background-color: red; */
+    text-align: left;
+    width: 80%;
+    padding-bottom: 4rem;
+}
+.add{
+    margin-bottom: 10rem auto;
+}
+.mainDiv{
+    display: flex;
+}
+.videos{
+    /* margin: 0 auto; */
+    font-weight: bold;
+    /* display: flex; */
+    /* float: inline-start; */
+}
+.footer{
+    display: flex;
+}
+}
+
+
+
+
+/* --------------------media query for Max 320---------------- */
+
+@media only screen and (max-width: 360px) {
+    .body{
+        margin: 0px;
+    }
+    .header{
+        background-color: #0AAAA0;
+        /* background-color: red; */
+        height: 2.5rem;
+    }
+    .social{
+        float: none;
+        padding-top: 0.5rem;
+        color: white;
+        margin: 0 auto;
+        padding-left: 0rem;
+        font-size: 12px;
+    }
+    .icn{
+        color: white;
+        margin-left: 0.2rem;
+    }
+    
+    .background{
+        background-image: url("Background_pic.png");
+        background-color: #0AAAA0;
+        height: 25vh;
+        background-size: 100%;
+        opacity: 80%;
+        background-repeat: no-repeat;
+        
+    }
+    .backDiv{
+        padding-top: 4rem;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        color: white;
+        
+    }
+    .navDiv{
+        margin: 0 auto;
+    }
+    .backH1{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .centDiv{
+        margin: 0 auto;
+        padding-left: 10rem;
+    }
+    .content{
+        padding-top: 1.5rem;
+        /* margin: 0 auto; */
+        
+    }
+    .cards{
+        width: 18rem;
+        margin-bottom: 4rem;
+    }
+    .Vhead{
+        margin: 0 auto;
+    }
+    .subVid{
+        margin: 0rem auto;
+        padding-left: 0;
+        font-weight: bold;
+    }
+    .details{
+        margin: 0rem auto;
+        color: white;
+        /* background-color: blue; */
+        text-align: center;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    .contact{
+        /* margin: 0rem auto; */
+        color: white;
+       /* margin: 0 auto; */
+       padding-bottom: 4rem;
+       /* text-align: left; */
+    }
+    .add{
+        margin-bottom: 10rem auto;
+    }
+    .subVid h4{
+        font-size: 15px;
+        width: 100%;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* --------------------media query for min 360 and max 376---------------- */
+
+@media only screen and (min-width: 360px) and (max-width: 400px) {
+    .body{
+        margin: 0px;
+    }
+    .header{
+        background-color: #0AAAA0;
+        /* background-color: red; */
+        height: 2.5rem;
+    }
+    .social{
+        float: none;
+        padding-top: 0.5rem;
+        color: white;
+        margin: 0 auto;
+        padding-left: 0rem;
+        font-size: 12px;
+    }
+    .icn{
+        color: white;
+        margin-left: 0.2rem;
+    }
+    
+    .background{
+        background-image: url("Background_pic.png");
+        background-color: #0AAAA0;
+        height: 25vh;
+        background-size: 100%;
+        opacity: 80%;
+        background-repeat: no-repeat;
+        
+    }
+    .backDiv{
+        padding-top: 4rem;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        color: white;
+        
+    }
+    .navDiv{
+        margin: 0 auto;
+    }
+    .backH1{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .centDiv{
+        margin: 0 auto;
+        padding-left: 10rem;
+    }
+    .content{
+        padding-top: 1.5rem;
+        /* margin: 0 auto; */
+        
+    }
+    .cards{
+        width: 22rem;
+        margin-bottom: 4rem;
+    }
+    .Vhead{
+        margin: 0 auto;
+    }
+    .subVid{
+        margin: 0rem auto;
+        padding-left: 0;
+        font-weight: bold;
+    }
+    .details{
+        margin: 0rem auto;
+        color: white;
+        /* background-color: blue; */
+        text-align: center;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        
+    }
+    .contact{
+        /* margin: 0rem auto; */
+        color: white;
+       margin: 0 auto;
+       padding-bottom: 4rem;
+    }
+    .add{
+        margin-bottom: 10rem auto;
+    }
+    .subVid h4{
+        font-size: 15px;
+        width: 100%;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* --------------------media query for min 401 and max 760---------------- */
+
+@media only screen and (min-width: 401px) and (max-width: 760px) {
+    .body{
+        margin: 0px;
+    }
+    .header{
+        background-color: #0AAAA0;
+        /* background-color: red; */
+        height: 2.5rem;
+    }
+    .social{
+        float: none;
+        padding-top: 0.5rem;
+        color: white;
+        margin: 0 auto;
+        padding-left: 0rem;
+        font-size: 12px;
+    }
+    .icn{
+        color: white;
+        margin-left: 0.2rem;
+    }
+    
+    .background{
+        background-image: url("Background_pic.png");
+        background-color: #0AAAA0;
+        height: 25vh;
+        background-size: 100%;
+        opacity: 80%;
+        background-repeat: no-repeat;
+        
+    }
+    .backDiv{
+        padding-top: 4rem;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        color: white;
+        
+    }
+    .navDiv{
+        margin: 0 auto;
+    }
+    .backH1{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .centDiv{
+        margin: 0 auto;
+        padding-left: 10rem;
+    }
+    .content{
+        padding-top: 1.5rem;
+        /* margin: 0 auto; */
+        
+    }
+    .cards{
+        width: 25rem;
+        margin-bottom: 4rem;
+    }
+    .Vhead{
+        margin: 0 auto;
+    }
+    
+    .subVid{
+        margin: 0rem auto;
+        padding-left: 0;
+        font-weight: bold;
+    }
+    .details{
+        margin: 0rem auto;
+        color: white;
+        /* background-color: blue; */
+        text-align: center;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    .contact{
+        /* margin: 0rem auto; */
+        color: white;
+       margin: 0 auto;
+       padding-bottom: 4rem;
+    }
+    .add{
+        margin-bottom: 10rem auto;
+    }
+    .subVid h4{
+        font-size: 15px;
+        width: 100%;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* --------------------media query for min 401 and max 760---------------- */
+
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+    .body{
+        margin: 0px;
+    }
+    .header{
+        background-color: #0AAAA0;
+        /* background-color: red; */
+        height: 2.5rem;
+    }
+    .social{
+        float: none;
+        padding-top: 0.5rem;
+        color: white;
+        margin: 0 auto;
+        padding-left: 0rem;
+        font-size: 12px;
+    }
+    .icn{
+        color: white;
+        margin-left: 0.2rem;
+    }
+    
+    .background{
+        background-image: url("Background_pic.png");
+        background-color: #0AAAA0;
+        height: 25vh;
+        background-size: 100%;
+        opacity: 80%;
+        background-repeat: no-repeat;
+        
+    }
+    .backDiv{
+        padding-top: 4rem;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        color: white;
+        
+    }
+    .navDiv{
+        margin: 0 auto;
+    }
+    .backH1{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .centDiv{
+        margin: 0 auto;
+        padding-left: 10rem;
+    }
+    .content{
+        padding-top: 1.5rem;
+        /* margin: 0 auto; */
+        
+    }
+    .cards{
+        width: 46rem;
+        margin-bottom: 4rem;
+    }
+    /* .Vhead{
+        margin: 0 auto;
+    }
+    .videos{
+        margin: 0 auto;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subVid{
+        margin: 0rem auto;
+        padding-left: 0;
+        font-weight: bold;
+    } */
+    .details{
+        margin: 0rem auto;
+        color: white;
+        /* background-color: blue; */
+        text-align: center;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* padding-bottom: 4rem; */
+        
+    }
+    .contact{
+        /* margin: 0rem auto; */
+        color: white;
+       margin: 0 auto;
+       padding-bottom: 4rem;
+    }
+    .add{
+        margin-bottom: 10rem auto;
+    }
+    .subVid h4{
+        font-size: 15px;
+        width: 100%;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* --------------------media query for min 1001 and max 1400---------------- */
+
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
+    .body{
+        margin: 0px;
+    }
+    .header{
+        background-color: #0AAAA0;
+        /* background-color: red; */
+        height: 2.5rem;
+    }
+    .social{
+        float: none;
+        padding-top: 0.5rem;
+        color: white;
+        margin: 0 auto;
+        padding-left: 0rem;
+        font-size: 12px;
+    }
+    .icn{
+        color: white;
+        margin-left: 0.2rem;
+    }
+    
+    .background{
+        background-image: url("Background_pic.png");
+        background-color: #0AAAA0;
+        height: 25vh;
+        background-size: 100%;
+        opacity: 80%;
+        background-repeat: no-repeat;
+        
+    }
+    .backDiv{
+        padding-top: 4rem;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+        color: white;
+        
+    }
+    .navDiv{
+        margin: 0 auto;
+    }
+    .backH1{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .centDiv{
+        margin: 0 auto;
+        padding-left: 10rem;
+    }
+    .content{
+        padding-top: 1.5rem;
+        /* margin: 0 auto; */
+        
+    }
+    .cards{
+        width: 30rem;
+        margin-bottom: 4rem;
+    }
+    .Vhead{
+        margin: 0 auto;
+    }
+    .subVid{
+        margin: 0rem auto;
+        padding-left: 0;
+        font-weight: bold;
+    }
+    .details{
+        margin: 0rem auto;
+        color: white;
+        /* background-color: blue; */
+        text-align: center;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    .contact{
+        /* margin: 0rem auto; */
+        color: white;
+       margin: 0 auto;
+       padding-bottom: 4rem;
+    }
+    .add{
+        margin-bottom: 10rem auto;
+    }
+    .subVid h4{
+        font-size: 15px;
+        width: 100%;
+    }
+    .mainDiv{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .footer{
+        display: flex;
+        /* flex-direction: column; */
+    }
+}

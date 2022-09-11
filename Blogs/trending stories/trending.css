@@ -1,0 +1,62 @@
+.tags{
+    background-color: #0AAAA0;
+}
+.card .firstimg{
+    height: 50vh;
+    width: 50vw;
+    margin-bottom: 1rem;
+   }
+.card .secondimg{
+    height: 45vh;
+    width: 40vw;
+    margin: 1rem 0 1rem 1.5rem;
+}
+.blockquote{
+    background-color: rgb(223, 235, 187);
+    color: rgb(89, 141, 231);
+    margin-left: 1rem;
+}
+.cards{
+    width: 58vw;
+}
+.warriortips{
+    background-color: rgb(70, 70, 70);
+    color: antiquewhite;
+}
+.videos img{
+    width: 20rem;
+    margin-left: 9rem;
+    /* margin-top: 10rem; */
+}
+.videos h1{
+    width: 21rem; margin-top: 4rem; margin-left: 9rem; text-decoration: underline;
+}
+@media only screen and (max-width: 1400px) {
+
+    .videos img{
+        width: 20rem;
+        margin-left: -3rem;
+        /* margin-top: 10rem; */
+    }
+    .videos h1{
+        margin-left: -3rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+    .card .firstimg{
+        height: 38vh;
+        width: 82vw;
+        margin-bottom: 1rem;
+       }
+    .card .secondimg{
+        height: 40vh;
+        width: 80vw;
+        margin: 1rem 2rem 1rem .5rem;
+    }
+    .cards{
+        width: 90vw;
+    }
+
+
+}
