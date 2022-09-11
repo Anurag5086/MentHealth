@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./blog.css">
+    <link rel="shortcut icon" href="logo\Logo (1).png" type="image/x-icon">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    
+    
+    <title>Blogs</title>
+</head>
+<body>
+    <!-- header  -->
+    <header class="header">
+      <div class="social">
+        <span>Follow Us On : </span>
+        <span class="icn">
+          <a href="https://www.facebook.com/" style="color: white;"><i class="fa-brands fa-facebook-f"></i></a>
+        </span>
+        <span class="icn">
+          <a href="https://twitter.com/login" style="color: white;"><i class="fa-brands fa-twitter"></i></a>
+        </span>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navDiv sticky-lg-top">
+      <div class="container-fluid w-75">
+        <a class="navbar-brand" href="#"><img src="logo\Logo (1).png" alt="MentHealth Logo" style="width: 5rem;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link me-5" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#">EVENTS</a>
+            </li>
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                GET HELP
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#">HELP US</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- blog content section -->
+    <div class="maindiv">
+      <div class="right-side col-7">
+        <p class="headingtext"><a href="">Recent Post</a></p>
+        <img onload="resizeFtImage(this)" src="./images/firstpost.png" class="firstimg" alt="">
+        <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+        <h4><a href="./trending stories/smrithi Story.html" target="_blank">Smrithi's Story of finding Strength in Vulnerability from therapy</a></h4>
+      </div>
+      <div class="left-side col-5">
+        <p class="headingtext"><a href="">Feature Post</a></p>
+        <div class="left-column d-flex">
+          <img src="./images/rightsideimg1.png" class="leftimg" alt="">
+          <div>
+              <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+              <p><a href="./trending stories/shruthi Story.html" target="_blank"><strong>How Shruthi Spearheaded Her Issues around her Marital Life  Through Therapy</strong></a></p>
+          </div>   
+        </div>
+        <div class="left-column d-flex">
+          <img src="./images/rightsideimg2.jpg" class="leftimg" alt="">
+          <div>
+            <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+            <p><a href="./trending stories/Psychological Impact of Covid.html" target="_blank"><strong>Psychological Impact of the COVID-19 Pandemic</strong></a></p>
+        </div>  
+        </div>
+        <div class="left-column d-flex">
+          <img src="./images/rightsideimg3.jpg" class="leftimg" alt="">
+          <div>
+            <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+            <p><a href="./trending stories/kavya Story.html" target="_blank"><strong>Kavya Finally Healed From a Wrong Relationship Damage</strong></a></p>
+        </div>  
+        </div>
+      </div>
+    </div>
+
+
+        <!-- Trending Stories -->
+        <div class="container-stories">
+          <div class="block-title">
+            <span>TRENDING STORIES</span>
+          </div>
+          <div class="trending-cards d-flex">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/divyastory.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+                <p class="card-text"><a href="./trending stories/divya Story.html" target="_blank">Climbing the Ladder of Motivation and Leaving Behind Stress: This is Divya's Story</a></p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/sakshi.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+                <p class="card-text"><a href="./trending stories/Sakshi Story.html" target="_blank">Confronting Her Fears and Anxiety Around Career Through Therapy: This is Sakshi’s Story</a></p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/shradha.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+                <p class="card-text"><a href="./trending stories/Shradha Story.html" target="_blank">Shardha Gets Out of Her Relationship Through Therapy</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="trending-cards d-flex">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/trending1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+                <p class="card-text"><a href="./trending stories/Anita Story.html" target="_blank">Liberating Herself from Self-esteem Issues with Therapy: This is Anita’s Story</a></p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/himanshi.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+                <p class="card-text"><a href="./trending stories/himanshi Story.html" target="_blank">How Himanshi’s Opinion On Mental Health Changed As She Confidently Handled Her Toxic Relationships With The Help Of Counseling</a>
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/anurag.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><u><a href="">#LetsTalk #YouAreNotAlone</a></u></p>
+                <p class="card-text"><a href="./trending stories/Anurag Story.html" target="_blank">How Anurag handled his breakup and continued to thrive with the help of his counselor</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="pagination1">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    <!-- Trending Stories Ends -->
+
+     <!-- Video Section -->
+     <div class="container-stories videos">
+      <div class="block-title">
+        <span>Videos</span>
+      </div>
+      <div class="trending-cards d-flex">
+        <div class="card videoCard" style="width: 18rem;">
+          <iframe src="https://youtube.com/embed/3BByqa7bhto" frameborder="0"></iframe>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Video</h6>
+            <p class="card-text">Emotional Wellness In the Times Of COVID-19</p>
+          </div>
+        </div>
+        <div class="card videoCard" style="width: 18rem;">
+          <iframe src="https://youtube.com/embed/3BByqa7bhto" frameborder="0"></iframe>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Video</h6>
+            <p class="card-text">Emotional Wellness In the Times Of COVID-19</p>
+          </div>
+        </div>
+        <div class="card videoCard" style="width: 18rem;">
+          <iframe src="https://youtube.com/embed/3BByqa7bhto" frameborder="0"></iframe>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Video</h6>
+            <p class="card-text">Emotional Wellness In the Times Of COVID-19</p>
+          </div>
+        </div>
+      </div>
+      <div class="trending-cards d-flex">
+        <div class="card videoCard" style="width: 18rem;">
+          <iframe src="https://youtube.com/embed/3BByqa7bhto" frameborder="0"></iframe>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Video</h6>
+            <p class="card-text">Emotional Wellness In the Times Of COVID-19</p>
+          </div>
+        </div>
+        <div class="card videoCard" style="width: 18rem;">
+          <iframe src="https://youtube.com/embed/3BByqa7bhto" frameborder="0"></iframe>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Video</h6>
+            <p class="card-text">Emotional Wellness In the Times Of COVID-19</p>
+          </div>
+        </div>
+        <div class="card videoCard" style="width: 18rem;">
+          <iframe src="https://youtube.com/embed/3BByqa7bhto" frameborder="0"></iframe>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Video</h6>
+            <p class="card-text">Emotional Wellness In the Times Of COVID-19</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Video Section Ends -->
+
+<!-- Quotes Section -->
+<div class="container-stories quotes">
+  <div class="block-title">
+    <span>Quotes</span>
+  </div>
+  <div class="trending-cards d-flex">
+    <div class="card quoteCard" style="width: 18rem;">
+      <img src="./images/quotes1.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card quoteCard" style="width: 18rem;">
+      <img src="./images/quotes2.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card quoteCard" style="width: 18rem;">
+      <img src="./images/quotes3.png" class="card-img-top" alt="...">
+    </div>
+  </div>
+  <div class="trending-cards d-flex">
+    <div class="card quoteCard" style="width: 18rem;">
+      <img src="./images/quotes4.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card quoteCard" style="width: 18rem;">
+      <img src="./images/quotes5.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card quoteCard" style="width: 18rem;">
+      <img src="./images/quotes6.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+  
+</div>
+
+<!-- Quotes Section Ends-->
+
+
+           <!-- footer section -->
+    
+    <footer class="footer bg-black ">
+      <div class="clo-7">
+        <div class="details pb-4">
+          <img src="logo\Logo (1).png" alt="Logo">
+          <p class="" style="">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged  
+          </p>
+        </div>
+      </div>
+      <div class="contact col-5 pt-4 mt-4">
+        <h5>QUICK CONTACT</h5>
+        <br>
+        <br>
+        <div class="cont">
+        <span ><i class="fa-solid fa-location-arrow"></i></span>
+        <span >ABC Road, City, Country, Pin </span>
+        <br>
+        <br>
+        <span ><i class="fa-solid fa-phone"></i></span>
+        <span>+91- 9876543210</span>
+        <br>
+        <br>
+        <span ><i class="fa-solid fa-envelope"></i></span>
+        <span>menthealth@menthealth.com</span>
+        <br>
+        <br>
+        <span >Follow Us On : </span>
+        <span class="icn ">
+          <a href="https://www.facebook.com/" style="color: rgb(249, 249, 249);"><i class="fa-brands fa-facebook-f"></i></a>
+        </span >
+        <span class="icn ">
+          <a href="https://twitter.com/login" style="color: rgb(255, 255, 255);"><i class="fa-brands fa-twitter"></i></a>
+        </span>
+        </div>
+      </div>
+    </footer>
+
+  
+    <script src="https://kit.fontawesome.com/be18d6dda0.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

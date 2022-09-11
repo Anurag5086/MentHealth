@@ -1,0 +1,189 @@
+
+.maindiv{
+    display: flex;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    /* width: fit-content; */
+    /* background-color: aqua; */
+    margin-bottom: 1rem;
+}
+.maindiv .headingtext{
+    text-decoration: underline;
+    font-size: 1rem;
+    color: rgb(95, 109, 109);
+}
+.maindiv .right-side{
+    width: min-content;
+    
+}
+.right-side .firstimg{
+ height: 50vh;
+ width: 50vw;
+ margin-bottom: 1rem;
+}
+.maindiv .left-side{
+    margin-left: 1rem;
+    font-size: 1rem;
+    height: 60vh;
+    cursor: pointer;
+}
+.left-column{
+    height: 7rem;
+    width: fit-content;
+}
+.left-column .leftimg{
+    height: 80px;
+    width: 150px;
+    margin-top: 7px;
+}
+
+/* trending stories */
+.container-stories > .block-title{
+    text-align: center;
+    display: block;
+    height: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+.block-title span{
+    width: 20%;
+    background: #fff;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: -10px;
+    display: block;
+}
+.container-stories{
+    width: 90vw;
+    margin: auto;
+}
+.trending-cards{
+    /* width: fit-content; */
+    margin-left: 1rem;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    padding: 5px 5px;
+}
+.card{
+    width: 25rem !important;
+    height: 20rem !important;
+    border: 1px solid #0AAAA0 !important;
+    cursor: pointer;
+}
+.card-img-top{
+    height: 12rem !important;
+}
+.pagination1{
+    display: flex;
+    justify-content: center;
+}
+
+/* video section */
+.videos{
+    margin-top: 2rem;
+    flex-wrap: nowrap;
+}
+.videoCard{
+    height: 15rem !important;
+}
+
+/* quote css */
+.quoteCard{
+    height: 13rem !important;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover{
+    color: rgb(70, 201, 230) !important;
+}
+
+img{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+.body{
+    margin: 0px;
+}
+.card{
+    width: 20rem !important;
+    height: 19 !important;
+    padding: 7px 7px;
+    margin: 7px 7px;
+}
+.left-column{
+    height: 9rem;
+    width: fit-content;
+    font-size: small;
+    
+}
+.letstalk{
+width: 20rem !important; 
+height: 10rem;
+}
+
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 899px) {
+    .left-side{
+        display: none;
+    }
+    .right-side .firstimg{
+        width: 90vw;
+    }
+    .trending-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-stories{
+        margin-right: 1rem;
+        width: auto;
+    }
+    .card{
+        margin-bottom: 1rem;
+        width: 30rem !important;
+        /* padding: 7px 7px;
+        margin: 7px 7px; */
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .left-side{
+        display: none;
+    }
+    .right-side .firstimg{
+        width: 90vw;
+        height: 45vh;
+    }
+    .trending-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-stories{
+        margin-right: 1rem;
+        width: auto;
+    }
+    .card{
+        margin-bottom: 1rem;
+        width: 19rem !important;
+        /* padding: 7px 7px;
+        margin: 7px 7px; */
+    }
+
+}
