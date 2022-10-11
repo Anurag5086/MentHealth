@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpLine</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <!-- <script src="script.js" defer></script> -->
+</head>
+
+<body>
+  <!-- header  -->
+  <!-- <div class="container"> -->
+  <header class="header">
+    <div class="social">
+      <span>Follow Us On : </span>
+      <span class="icn">
+        <a href="https://www.facebook.com/" style="color: white;"><i class="fa-brands fa-facebook-f"></i></a>
+      </span>
+      <span class="icn">
+        <a href="https://twitter.com/login" style="color: white;"><i class="fa-brands fa-twitter"></i></a>
+      </span>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light navDiv">
+    <div class="container-fluid ms-5">
+      <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt="MentHealth Logo" style="width: 5rem;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link me-5" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#">EVENTS</a>
+          </li>
+          <li class="nav-item dropdown me-5">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              GET HELP
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Help</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#">HELP US</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!---------------------heading------------------->
+  <div class="container">
+    <div class="main-heading">
+      <h2><span>HELPLINE </span>NUMBERS</h2>
+      <p class="subheading">MENTHEALTH - We're Here To Help.</p>
+      <p class="main-para"><span class="main-number"><a href=#>91-9820466726</a><br></span>
+        <span class="details"> <span class=hour>Hours :</span> 24 hours, 7 days a week<br></span>
+        <span class=hour> Languages :</span> English, Hindi.
+      </p>
+    </div>
+    <p class="explain">Our free,confidential helpline is answered by professionally trained volunteers. So, whatever
+      your concerns are,
+      you can be rest assured that you will receive non-judgmental and non-critical listening.
+      Please note, the caller's identity is never revealed and none of our calls are recorded or shared.</p>
+     <hr id="hr">
+    <h5>Suicide Prevention Helpline Directory (India)</h5>
+    <p class="explain-2">A collection of working helplines in India. Help us to update the directory by informing us about helplines
+      status at <a href="#">menthealth@health.com</a></p>
+    <p class="helpline-heading">Helpline Numbers Of All The States</p>
+    <!--- India states -->
+    <div class="options">
+      <select id="country-state" name="country-state">
+        <option value="S">SELECT</option>
+        <!-- <option value="AN">Andaman and Nicobar Islands</option> -->
+        <!-- <option value="AP">Andhra Pradesh</option> -->
+        <!-- <option value="AR">Arunachal Pradesh</option> -->
+        <option value="AS">Assam</option>
+        <!-- <option value="BR">Bihar</option> -->
+        <option value="CH">Chandigarh</option>
+        <option value="CT">Chhattisgarh</option>
+        <!-- <option value="DN">Dadra and Nagar Haveli</option> -->
+        <!-- <option value="DD">Daman and Diu</option> -->
+        <option value="DL">Delhi</option>
+        <option value="GA">Goa</option>
+        <option value="GJ">Gujarat</option>
+        <!-- <option value="HR">Haryana</option>
+        <option value="HP">Himachal Pradesh</option> -->
+        <option value="JK">Jammu and Kashmir</option>
+        <option value="JH">Jharkhand</option>
+        <option value="KA">Karnataka</option>
+        <option value="KL">Kerala</option>
+        <!-- <option value="LA">Ladakh</option>
+        <option value="LD">Lakshadweep</option> -->
+        <option value="MP">Madhya Pradesh</option>
+        <option value="MH">Maharashtra</option>
+
+        <option value="OR">Odisha</option>
+        <option value="PY">Puducherry</option>
+        <option value="PB">Punjab</option>
+        <option value="RJ">Rajasthan</option>
+        <option value="SK">Sikkim</option>
+        <option value="TN">Tamil Nadu</option>
+        <option value="TG">Telangana</option>
+        <option value="WB">West Bengal</option>
+      </select>
+
+
+      <button type="button" class="go" onclick="fun()">GO</button>
+    </div>
+
+    <div id="state">
+      <p id="Assam"><strong>Assam</strong><br>
+        <br>Sarathi 104
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Assam
+      </p>
+      <hr>
+      <p id="Chandigarh"><strong>Chandigarh</strong><br>
+        <br>Asha Helpline
+        <br><a href="tel:+91 172 2735436">+91 172 2735436</a>, <a href="tel:+91 172 2735446">+91 172 2735446</a>
+        <br>Monday to Saturday: 8am to 7pm
+        <br>Chandigarh
+      </p>
+      <hr>
+      <p id="Chhattisgarh"><strong>Chhattisgarh</strong><br>
+        <br>Arogya Seva: Health Care and Health Counseling Center
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Chhattisgarh
+      </p>
+      <hr>
+
+      <p id="Delhi"><strong>Delhi</strong><br>
+        <br>Sumaitri:
+        <br><a href="tel:+91 011 23389090">+91 011 23389090</a>
+        <br>Mon-Fri 2pm to 10pm and Sat-Sun 10am &amp; to 10pm
+        <br>New Delhi
+      </p>
+
+
+
+      <p>Snehi
+        <br><a href="tel:+91 011 65978181">+91 011 65978181</a>
+        <br>Daily: 2pm to 6pm
+        <br>New Delhi
+      </p>
+
+
+
+      <p>Sanjeevani:
+        <br><a href="tel:011 24311918">011 24311918</a>, <a href="tel:011 24318883">011 24318883</a> (Mon-Fri)&nbsp;
+        <br><a href="tel:26862222">26862222</a>, <a href="tel:26864488">26864488</a>, <a
+          href="tel:40769002">40769002</a> (Mon-Sat)
+        <br>Timings: 10 a.m. to 5.30 p.m.
+        <br>New Delhi
+      </p>
+
+
+
+      <p>Fortis Stress Helpline:
+        <br><a href="tel:+918376804102">+918376804102</a>
+        <br>24x7
+        <br>Delhi
+      </p>
+
+      <hr>
+
+      <p id="Goa"><strong>Goa</strong><br>
+        <br>COOJ Mental Health Foundation:
+        <br><a href="tel:+91 8322252525">+91 8322252525</a>, <a href="tel:+91 98225 62522">+91 98225 62522</a>
+        <br>Weekdays: 3pm to 7pm
+        <br>Goa
+      </p>
+
+
+      <hr>
+      <p id="Gujarat"><strong>Gujarat</strong><br>
+        <br>Saath
+        <br><a href="tel:+91 79 26305544">+91 79 26305544</a> , <a href="tel:+91 79 26300222">+91 79 26300222</a>
+        <br>Daily: 1pm to 7pm
+        <br>Ahmedabad
+      </p>
+
+
+
+
+      <p>Jeevan Aastha helpline
+        <br><a href="tel:1800 233 3330">1800 233 3330</a>
+        <br>24x7
+        <br>Gandhinagar
+      </p>
+
+      <hr>
+
+      <p id="JandK"><strong>Jammu and Kashmir</strong><br>
+        <br>Kashmir Lifeline
+        <br><a href="tel:1800 180 7020">1800 180 7020</a>
+        <br>Sunday to Thursday: 10am to 5pm
+        <br>Srinagar
+      </p>
+
+
+
+      <p>The Sara
+        <br><a href="tel:+91-9697-606060">+91-9697-606060</a>
+        <br>Daily: 10am to 5pm
+        <br>Jammu Tawi
+      </p>
+
+
+      <hr>
+      <p id="Jharkhand"><strong>Jharkhand</strong><br>
+        <br>Chikitsa Salah: Health Information Helpline
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Jharkhand
+      </p>
+
+
+      <hr>
+
+      <p>Jeevan Suicide Prevention Helpline
+        <br><a href="tel:+91 0657 6453841">+91 0657 6453841</a>, <a href="tel:+91 0657 6555555">+91 0657 6555555</a>
+        <br>Daily: 10am to 6pm
+        <br>Jamshedpur
+      </p>
+
+
+      <hr>
+      <p id="Karnataka"><strong>Karnataka</strong><br>
+        <br>Parivarthan Counseling Helpline Services
+        <br><a href="tel:+91 7676 602 602">+91 7676 602 602</a>
+        <br>04:00 PM to 10:00 PM | Monday to Friday
+        <br>Bengaluru
+      </p>
+
+      <p>SAHAI
+        <br><a href="tel:+91 080 25497777">+91 080 25497777</a>, <a href="tel:9886444075">9886444075 </a>
+        <br>Monday to Saturday: 10 AM to 8 PM
+        <br>Bengaluru
+      </p>
+
+
+
+      <p>Sa-Mudra Yuva Helpline
+        <br><a href="tel:+91 9880396331">+91 9880396331</a>
+        <br>24x7
+        <br>Bengaluru
+      </p>
+
+      <p>Arogya&nbsp;Sahayavani
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Karnataka
+      </p>
+
+
+      <hr>
+      <p id="Kerala"><strong>Kerala</strong><br>
+        <br>Thanal Suicide Prevention centre
+        <br><a href="tel:+91 0495 2760000">+91 0495 2760000</a>
+        <br>Daily: 10am to 6pm
+        <br>Kozhikode
+      </p>
+
+      <p>Maithri Kochi
+        <br><a href="tel:+91 484 2540530">+91 484 2540530</a>
+        <br>Daily: 10am to 7pm
+        <br>Kochi
+      </p>
+
+      <p>Pratheeksha
+        <br><a href="tel:+91 0484 2448830">+91 0484 2448830</a>
+        <br>Daily: 10am to 6pm
+        <br>3N Paravur
+      </p>
+
+      <p>Prathyasa
+        <br><a href="tel:+91 480 2820091">+91 480 2820091</a>
+        <br>Irinjalakuda
+      </p>
+
+      <p>Sanjeevani
+        <br><a href="tel:+91 0471 2533900">+91 0471 2533900</a>
+        <br>Monday to Saturday: 1pm to 5pm
+        <br>Thiruvananthapuram
+      </p>
+
+      <p>DISHA
+        <br><a href="tel:1056">1056</a>
+        <br>24x7
+        <br>Kerala
+      </p>
+      <hr>
+      <p id="MP"><strong>Madhya Pradesh</strong><br>
+        <br>Spandan
+        <br><a href="tel:+91 9630899002">+91 9630899002</a>, <a href="tel:+91 7389366696">+91 7389366696</a>
+        <br>24x7
+        <br>Indore
+      </p>
+
+      <p>Sanjivani
+        <br><a href="tel:">1253</a>, <a href="tel:+91 0761-2626622">+91 0761-2626622</a>
+        <br>Jabalpur
+      </p>
+
+      <p>Jeevan Aadhar- Adolescent Helpline
+        <br><a href="tel:1800-233-1250">1800-233-1250</a>
+        <br>Daily: 9am to 5pm (Except National Holidays)
+        <br>Bhopal
+      </p>
+      <hr>
+      <p id="Maharashtra"><strong>Maharashtra</strong><br>
+        <br>Hitguj help number
+        <br><a href="tel:+91 022 24131212">+91 022 24131212</a>
+        <br>Mumbai
+      </p>
+      <p>MentHealth;
+        <br><a href="tel:+91 9820466726">+91 9820466726</a>&nbsp;
+        <br>24x7
+        <br>Navi Mumbai
+      </p>
+
+      <p>Nagpur Suicide Prevention Helpline
+        <br><a href="tel:8888817666">8888817666</a>
+        <br>Nagpur
+      </p>
+
+      <p>Connecting NGO
+        <br><a href="tel:1800 843 4353">1800 843 4353</a> (Toll-Free)/<a href="tel:9922001122">9922001122</a>
+        <br>Daily: 12 PM to 8 PM
+        <br>Pune
+      </p>
+
+      <p>Vandrevala Foundation
+        <br><a href="tel:1860 266 2345">1860 266 2345</a>, <a href="tel:1800 233 3330">1800 233 3330</a>
+        <br>24x7
+      </p>
+
+      <p>Tata Institute of Social Sciences icall&nbsp;
+        <br><a href="tel:022 25521111 ">022 25521111</a>
+        <br>Monday to Saturday: 8 AM to 10 PM
+        <br>Mumbai
+      </p>
+
+      <p>The Samaritans Mumbai
+        <br><a href="tel:+91 84229 84528">+91 84229 84528</a> / <a href="tel:+91 84229 84529">+91 84229 84529</a> / <a
+          href="tel:+91 84229 84530">+91 84229 84530</a>
+        <br>Daily: 3 PM to 9 PM
+        <br>Mumbai
+      </p>
+
+      <p>Maitra Helpline
+        <br><a href="tel:+91 022 25385447">+91 022 25385447</a>
+        <br>Monday to Saturday: 9am to 9pm and Sunday: 9am to 1pm
+        <br>Thane
+      </p>
+
+      <p>Shushrusha Counseling, Guidance and Training Institute
+        <br><a href="tel:+91 9422627571">+91 9422627571</a>, <a href="tel:+91 8275038382">+91 8275038382</a>
+        <br>24x7
+        <br>Islampur
+      </p>
+       <hr>
+      <p id="Odisha"><strong>Odisha</strong><br>
+        <br>Health Helpline
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Odisha
+      </p>
+      <hr>
+      <p id="Pondicherry"><strong>Pondicherry</strong><br>
+        <br>Maitreyi
+        <br><a href="tel:+91 0413 2339999">+91 0413 2339999</a>
+        <br>Daily: 2pm to 8pm
+        <br>Pondicherry
+      </p>
+      <hr>
+      <p id="Punjab"><strong>Punjab</strong><br>
+        <br>Medical Consultation – Health
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Punjab
+      </p>
+      <hr>
+      <p id="Rajasthan"><strong>Rajasthan</strong><br>
+        <br>Medical Advice and Helpline
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Rajasthan
+      </p>
+
+      <p>Hope Helpline for Students
+        <br><a href="tel:+91 0744 2333666">+91 0744 2333666</a> , <a href="tel:+91 0744 2414141">+91 0744 2414141</a>
+        <br>24x7
+        <br>Kota
+      </p>
+      <hr>
+      <p id="Sikkim"><strong>Sikkim</strong><br>
+        <br>Suicide Prevention Helpline
+        <br><a href="tel:221152">221152</a>, <a href="tel:18003453225">18003453225</a>
+        <br>24x7
+        <br>Gangtok
+      </p>
+      <hr>
+      <p id="TN"><strong>Tamil Nadu</strong><br>
+        <br>Sneha India foundation
+        <br><a href="tel:+91 044-24640050">+91 044-24640050</a> | 24 Hours | Monday to Sunday
+        <br><a href="tel:+91 044-24640060">+91 044-24640060</a> | 08:00 AM - 10:00 PM | Monday to Sunday
+        <br>Chennai
+      </p>
+
+      <p>Medical Helpline
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Tamil Nadu
+      </p>
+
+      <p>Jeevan Suicide Prevention Hotline
+        <br><a href="tel:+91 044 2656 4444">+91 044 2656 4444</a>
+        <br>24x7
+        <br>Chennai
+      </p>
+      <hr>
+      <p id="Telangana"><strong>Telangana</strong><br>
+        <br>Roshni Trust:
+        <br><a href="tel:+91 40 6620 2000">+91 40 6620 2000</a>, <a href="tel:+91 40 6620 2001">+91 40 6620 2001</a>
+        <br>Monday to Saturday: 11am to 9pm
+        <br>Secunderabad
+      </p>
+
+      <p>One Life
+        <br><a href="tel:+91 7893078930">+91 7893078930</a>
+        <br>24x7
+        <br>Hyderabad
+      </p>
+
+      <p>Sevakendram-Health Information Helpline
+        <br><a href="tel:104">104</a>
+        <br>24x7
+        <br>Telangana
+      </p>
+
+      <p>Darshika
+        <br><a href="tel:+91 040 27755506">+91 040 27755506</a>, <a href="tel:+91 040 27755505">+91 040 27755505</a>
+        <br>Secunderabad
+      </p>
+
+      <p>Makro Foundation - Suicide Prevention Helpdesk
+        <br><a href="tel:+91 040 46004600">+91 040 46004600</a>
+        <br>Monday to Friday: 10:00 am to 7:00 pm
+        <br>Hyderabad
+      </p>
+      <hr>
+
+      <p id="WB"><strong>West Bengal</strong><br>
+        <br>Lifeline Foundation
+        <br><a href="tel:+91 033 24637401">+91 033 24637401</a>, <a href="tel:+91 033 24637432">+91 033 24637432</a>
+        <br>Monday to Sunday: 10:00 AM to 06:00 PM
+        <br>Kolkata
+      </p>
+
+      <p>NIBS Helpline
+        <br><a href="tel:+91 98364 01234">+91 98364 01234, </a><a href="tel:+91 033 2286 5603">+91 033 2286 5603</a>
+        <br>Monday to Friday: 6 pm and 10 pm
+        <br>Kolkata
+      </p>
+    </div>
+
+
+
+
+
+  </div>
+  <footer class="footer bg-black pb-4 ">
+
+    <div class="row">
+      <div class="col-md-1 ">
+
+      </div>
+      <div class="col-md-6 logo">
+        <img class="logo" src="./images/Logo.png" alt="Logo"><br>
+      </div>
+      <div class="col-md-1">
+
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-1">
+
+      </div>
+      <div class="col-md-6 col-sm-10 para">
+
+        MentHealth functions as a unit of Befrienders Worldwide/Samaritans and
+        is a non-religious, non-political and non-sectarian organization, registered <br>
+        as a Public Charity under the Indian Charity Act, 1960 (Registration No. E 2047).
+        Befrienders Worldwide/Samaritans has been working in the field of crisis <br>
+        intervention/areas of emotional and mental health since 1960. MentHealth is the
+        only help line in Bengaluru and started functioning from 21st July,2022.
+      </div>
+      <!-- <div class="col-md-1">
+
+    </div> -->
+      <div class="col-md-4 contact">
+
+
+        <h5>QUICK CONTACT</h5>
+        <!-- <div class="col-md-4">
+        </div> -->
+
+        <div class="cont">
+          <span><i class="fa-solid fa-location-arrow"></i></span>
+          <span>Delhi Road, Delhi, India, 556600 </span>
+          <br>
+          <span><i class="fa-solid fa-phone"></i></span>
+          <span>+91- 9999999999</span>
+          <br>
+          <span><i class="fa-solid fa-envelope"></i></span>
+          <span class="email">menthealth@health.com</span>
+          <br>
+          <span>Follow Us On : </span>
+          <span class="icn">
+            <a href="https://www.facebook.com/" style="color: white;"><i class="fa-brands fa-facebook-f"></i></a>
+          </span>
+          <span class="icn">
+            <a href="https://twitter.com/login" style="color: white;"><i class="fa-brands fa-twitter"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    
+  </footer>
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/8c93d321f3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
